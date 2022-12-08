@@ -1,0 +1,142 @@
+body {
+  background-color: #565656;
+}
+/*index.html*/
+h1,
+h2,
+h6 {
+  display: flex;
+  justify-content: center;
+  font: bold;
+  color: rgb(245, 239, 230);
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.topheadings {
+  border-style: groove;
+  border-color: #fba92c;
+  margin: 20px;
+}
+.navbar {
+  position: relative;
+  background-color: #eeb257;
+  font-size: 25px;
+  padding: 2px;
+  text-align: center;
+  margin: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar a {
+  margin: 20px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  background-color: #efc689;
+  padding: 2px;
+  margin: 20px;
+}
+
+.container img {
+  margin-left: 250px;
+}
+
+#paragraph1 {
+  margin-left: 90px;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  border-style: groove;
+  border-width: 12px;
+  border-color:#fba92c;
+  padding:20px;
+  
+}
+/*about.html*/
+.paragraph2 {
+  text-align: justify;
+}
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  background-color: #efc689;
+  padding: 20px;
+  margin: 0 10px;
+}
+
+.grid img {
+  width: 305px;
+  height: 200px;
+}
+video {
+  width: 305px;
+  height: 200px;
+}
+.description {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-style: oblique;
+  font-size: 20px;
+  color: #362f25;
+}
+
+.paragraph2 {
+  background-color: #fba92c;
+  text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  font-stretch: expanded;
+  opacity: 0.9;
+  line-height: 180%;
+  color: #362f25;
+  padding-left: 20px;
+  margin: 20px;
+}
+h3 {
+  margin: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  color: rgb(245, 239, 230);
+}
+hr {
+  border-top: 5px dotted rgb(245, 239, 230);
+  border-bottom: none;
+  margin: 20px;
+}
+/*contact.html*/
+.contact {
+  background-color: #efc689;
+  margin: 20px;
+}
+.contact p {
+  text-align: center;
+  background-color: #fba92c;
+  font-size: 30px;
+  min-height: 40px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.contact span {
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: #362f25;
+}
+i {
+  font-size: 30px;
+  color: #2e210f;
+  padding-left: 15px;
+}
+.footer {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+  background-color: #eeb257;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
